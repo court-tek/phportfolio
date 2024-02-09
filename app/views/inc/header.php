@@ -8,13 +8,14 @@
         </div>
     </div>
 
+    <?php $location = $_SERVER['REQUEST_URI']; ?>
 
     <!-- header
     ================================================== -->
     <header class="s-header <?php echo $location == "/phpmvc-portfolio/" ? "" : "sticky offset scrolling"  ?>">
 
         <div class="header-logo">
-            <a href="<?php echo URLROOT; ?>/index.html">
+            <a href="<?php echo URLROOT; ?>/">
                 <img src="<?php echo URLROOT; ?>/images/logo.svg" alt="Homepage">
             </a>
         </div>
@@ -23,8 +24,8 @@
     
             <nav class="row header-nav-wrap">
                 <ul class="header-nav">
-                    <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
-                    <li><a class="smoothscroll" href="#about" title="About">About</a></li>
+                    <li><a href="<?php echo URLROOT; ?>/" title="Intro">Home</a></li>
+                    <li><a href="<?php echo URLROOT; ?>/pages/about">About</a>
                     <li><a class="smoothscroll" href="#services" title="Services">Services</a></li>
                     <li><a class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
                     <li><a href="mailto:#0" title="Contact us">Say Hello</a></li>
