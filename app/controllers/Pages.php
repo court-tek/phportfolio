@@ -15,9 +15,15 @@
             $this->view('pages/welcome', $data);
         }
 
-        public function new()
+        public function about()
         {
-           echo 'This is the new page';
+           $data = [
+               'title' => 'About us',
+               'description' => 'App to share posts',
+               'author' => 'John Girley',
+           ];
+
+           $this->view('pages/about', $data);
         }
 
         public function show()
@@ -28,10 +34,5 @@
         public function edit()
         {
             echo 'This is the edit page';
-        }
-
-        public function about() 
-        {
-            echo 'This page is about us, hello. Your number is ';
         }
     }

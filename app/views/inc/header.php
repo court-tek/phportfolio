@@ -44,7 +44,7 @@
 
     <!-- header
     ================================================== -->
-    <header class="s-header">
+    <header class="s-header stick offset scrolling ">
 
         <div class="header-logo">
             <a href="index.html">
@@ -70,9 +70,5 @@
 
         <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
 
-    </header> 
-
-
-    <!-- hero
-    ================================================== -->
+    </header>
     

@@ -13,4 +13,4 @@
     define('URLROOT', 'http://localhost/phpmvc-portfolio');
 
     // Site name
-    define('SITENAME', '_YOUR_SITENAME_');
+    define('SITENAME', 'John\'s Portfolio');
