@@ -70,25 +70,25 @@
         $WIN.on('scroll', function () {
 
             let loc = $WIN.scrollTop();
-
-            if (loc > triggerHeight) {
-                $hdr.addClass('sticky');
-            } else {
-                $hdr.removeClass('sticky');
+            if (document.getElementsByTagName('body')[0].classList.contains('home__page')) {
+                if (loc > triggerHeight) {
+                    $hdr.addClass('sticky');
+                } else {
+                    $hdr.removeClass('sticky');
+                }
+    
+                if (loc > triggerHeight + 20) {
+                    $hdr.addClass('offset');
+                } else {
+                    $hdr.removeClass('offset');
+                }
+    
+                if (loc > triggerHeight + 150) {
+                    $hdr.addClass('scrolling');
+                } else {
+                    $hdr.removeClass('scrolling');
+                }
             }
-
-            if (loc > triggerHeight + 20) {
-                $hdr.addClass('offset');
-            } else {
-                $hdr.removeClass('offset');
-            }
-
-            if (loc > triggerHeight + 150) {
-                $hdr.addClass('scrolling');
-            } else {
-                $hdr.removeClass('scrolling');
-            }
-
         });
 
     };

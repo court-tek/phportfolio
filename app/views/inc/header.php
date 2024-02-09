@@ -11,7 +11,7 @@
 
     <!-- header
     ================================================== -->
-    <header class="s-header stick offset scrolling ">
+    <header class="s-header <?php echo $location == "/phpmvc-portfolio/" ? "" : "sticky offset scrolling"  ?>">
 
         <div class="header-logo">
             <a href="<?php echo URLROOT; ?>/index.html">
