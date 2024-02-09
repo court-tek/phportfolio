@@ -1,4 +1,6 @@
-<?php require APPROOT . '/views/inc/header.php'; ?>
+<?php require APPROOT . '/views/inc/head.php'; ?>
+    <body id="top">
+    <?php require APPROOT . '/views/inc/header.php'; ?>
      <!-- about
     ================================================== -->
     <section id="about" class="s-about target-section">
@@ -16,8 +18,8 @@
                     </div>
 
                     <div class="profile-pic" data-aos="fade-up">
-                        <img src="images/profile-pic.jpg" 
-                             srcset="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
+                        <img src="<?php echo URLROOT; ?>/images/profile-pic.jpg" 
+                             srcset="<?php echo URLROOT; ?>/images/profile-pic.jpg 1x, <?php echo URLROOT; ?>/images/profile-pic@2x.jpg 2x" alt="">
                     </div>
 
                     <h3 data-aos="fade-up">Profile</h3>
@@ -127,5 +129,6 @@
 
         </div> <!-- end s-about__section -->
 
-    </section> <!-- end s-about -->
+    </section> 
+    <!-- end s-about -->
 <?php require APPROOT . '/views/inc/footer.php'; ?>

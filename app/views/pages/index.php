@@ -1,4 +1,6 @@
-<?php require APPROOT . '/views/inc/header.php'; ?>
+<?php require APPROOT . '/views/inc/head.php'; ?>
+    <body id="top" class="home__page">
+    <?php require APPROOT . '/views/inc/header.php'; ?>
      <!-- hero
     ================================================== -->
     <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg-3000.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>

@@ -3,6 +3,8 @@
     * Base Controller
     * Loads the models and views
     */
+
+    use Jenssegers\Blade\Blade;
     class Controller 
     {
         // Load model
@@ -26,5 +28,4 @@
                 die('View does not exist');
             }
         }
-
     }

@@ -12,7 +12,7 @@
                 'title' => 'PHP 🐘 mvc',
             ];
 
-            $this->view('pages/welcome', $data);
+            $this->view('pages/index', $data);
         }
 
         public function about()
