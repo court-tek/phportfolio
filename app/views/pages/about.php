@@ -1,5 +1,5 @@
 <?php require APPROOT . '/views/inc/head.php'; ?>
-    <body id="top">
+    <body id="top" class="about__page">
     <?php require APPROOT . '/views/inc/header.php'; ?>
      <!-- about
     ================================================== -->

@@ -26,13 +26,25 @@
            $this->view('pages/about', $data);
         }
 
-        public function show()
+        public function services()
         {
-            echo 'This is the show page';
+            $data = [
+                'title' => 'Services page',
+                'description' => 'App to share posts',
+                'author' => 'John Girley',
+            ];
+ 
+            $this->view('pages/services', $data);
         }
 
-        public function edit()
+        public function portfolio()
         {
-            echo 'This is the edit page';
+            $data = [
+                'title' => 'Portfolio page',
+                'description' => 'App to share posts',
+                'author' => 'John Girley',
+            ];
+
+            $this->view('pages/portfolio', $data);
         }
     }

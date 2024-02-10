@@ -26,8 +26,8 @@
                 <ul class="header-nav">
                     <li><a href="<?php echo URLROOT; ?>/" title="Intro">Home</a></li>
                     <li><a href="<?php echo URLROOT; ?>/pages/about">About</a>
-                    <li><a class="smoothscroll" href="#services" title="Services">Services</a></li>
-                    <li><a class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
+                    <li><a href="<?php echo URLROOT; ?>/pages/services">Services</a></li>
+                    <li><a href="<?php echo URLROOT; ?>/pages/portfolio">Works</a></li>
                     <li><a href="mailto:#0" title="Contact us">Say Hello</a></li>
                 </ul>
             </nav> <!-- end header-nav-wrap -->
